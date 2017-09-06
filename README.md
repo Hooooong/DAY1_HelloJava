@@ -31,7 +31,7 @@ JAVA Programing
 
   - JAVA의 Complie 순서
 
-  - [함수의 작성 형태]()
+  - [함수의 작성 형태](https://github.com/Hooooong/DAY1_HelloJava/blob/master/src/HelloMain.java)
 
       - 접근제한자　　　　[static]　　　　리턴타입　　　　　함수명(매개변수...) { //Code }<br>
         public - 모든 접근을 허용<br>
@@ -46,7 +46,7 @@ JAVA Programing
         }
         ```
 
-  - [변수의 연산]()
+  - [변수의 연산](https://github.com/Hooooong/DAY1_HelloJava/blob/master/src/Sub.java)
       - 변수의 종류는 기본형(Primitive Type), 참조형(Reference Type) 이 있다.
       - 기본형(Primitive Type) : byte, char, short, int, long, float, double, boolean 이 있다.
       - 참조형(Reference Type) : 대표적으로 String 이 있다.
