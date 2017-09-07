@@ -1,6 +1,6 @@
 JAVA Programing
 ----------------------------------------------------
-#### 1일차
+#### 2017.09.04 1일차
 ____________________________________________________
   - JAVA의 특징
 
@@ -30,6 +30,14 @@ ____________________________________________________
         있다.
 
   - JAVA의 Complie 순서
+
+      - HelloJava.java -> HelloJava.clsss -> 기계어
+      - Class 파일 고유한 magic number를 가지고 있음(.java 의 class 파일은 cafe babe 로 통일)
+      - 처음 4byte 는 Magic Number, 다음 2byte 는 minore version, 다음 2byte 는 java version, ...
+      - Java 의 VM 을 통한 실행 시 컴파일 방식은 2가지 있다.(JIT, AOT)
+      - JIT : class 파일을 실행 시 최초 한번 기계어로 컴파일 한다.
+      - AOT : class 파일을 설치 시 최초 한번 기계어로 컴파일 한다.
+
 
   - [함수의 작성 형태](https://github.com/Hooooong/DAY1_HelloJava/blob/master/src/HelloMain.java)
 
