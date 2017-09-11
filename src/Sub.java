@@ -1,4 +1,5 @@
 public class Sub {
+
 	// 정수 연산은 모두 int로 대체된다.
 	byte a = 7;
 	byte b = 5;
